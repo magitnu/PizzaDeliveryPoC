@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<stepNavigation>
+    <pageName>selectDrinks</pageName>
+    <pageIndex>3</pageIndex>
+    <stepIndex>5</stepIndex>
+    <pageOccurrence>0</pageOccurrence>
+    <stepInPageOccurrence>1</stepInPageOccurrence>
+    <pageVariantIndex>1</pageVariantIndex>
+    <pageVariantScenarioIndex>0</pageVariantScenarioIndex>
+    <previousStepVariant>
+        <useCaseName>OrderPizza</useCaseName>
+        <scenarioName>orderPizza_plusRedWine</scenarioName>
+        <pageName>selectDrinks</pageName>
+        <pageOccurrence>0</pageOccurrence>
+        <stepInPageOccurrence>0</stepInPageOccurrence>
+        <pageIndex>3</pageIndex>
+        <stepIndex>4</stepIndex>
+    </previousStepVariant>
+    <pageVariantsCount>2</pageVariantsCount>
+    <pageVariantScenariosCount>1</pageVariantScenariosCount>
+    <previousStep>
+        <pageName>selectDrinks</pageName>
+        <pageOccurrence>0</pageOccurrence>
+        <stepInPageOccurrence>0</stepInPageOccurrence>
+    </previousStep>
+    <nextStep>
+        <pageName>summary</pageName>
+        <pageOccurrence>0</pageOccurrence>
+        <stepInPageOccurrence>0</stepInPageOccurrence>
+    </nextStep>
+    <previousPage>
+        <pageName>selectPizza</pageName>
+        <pageOccurrence>0</pageOccurrence>
+        <stepInPageOccurrence>1</stepInPageOccurrence>
+    </previousPage>
+    <nextPage>
+        <pageName>summary</pageName>
+        <pageOccurrence>0</pageOccurrence>
+        <stepInPageOccurrence>0</stepInPageOccurrence>
+    </nextPage>
+</stepNavigation>

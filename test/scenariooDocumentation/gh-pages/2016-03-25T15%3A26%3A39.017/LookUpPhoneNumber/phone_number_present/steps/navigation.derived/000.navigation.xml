@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<stepNavigation>
+    <pageName>enterPhoneNumber</pageName>
+    <pageIndex>0</pageIndex>
+    <stepIndex>0</stepIndex>
+    <pageOccurrence>0</pageOccurrence>
+    <stepInPageOccurrence>0</stepInPageOccurrence>
+    <pageVariantIndex>0</pageVariantIndex>
+    <pageVariantScenarioIndex>0</pageVariantScenarioIndex>
+    <nextStepVariant>
+        <useCaseName>OrderPizza</useCaseName>
+        <scenarioName>knownPhoneNumber_butIncorrectPhoneNumber</scenarioName>
+        <pageName>enterPhoneNumber</pageName>
+        <pageOccurrence>0</pageOccurrence>
+        <stepInPageOccurrence>0</stepInPageOccurrence>
+        <pageIndex>0</pageIndex>
+        <stepIndex>0</stepIndex>
+    </nextStepVariant>
+    <nextStepVariantInOtherScenario>
+        <useCaseName>OrderPizza</useCaseName>
+        <scenarioName>knownPhoneNumber_butIncorrectPhoneNumber</scenarioName>
+        <pageName>enterPhoneNumber</pageName>
+        <pageOccurrence>0</pageOccurrence>
+        <stepInPageOccurrence>0</stepInPageOccurrence>
+        <pageIndex>0</pageIndex>
+        <stepIndex>0</stepIndex>
+    </nextStepVariantInOtherScenario>
+    <pageVariantsCount>4</pageVariantsCount>
+    <pageVariantScenariosCount>4</pageVariantScenariosCount>
+</stepNavigation>

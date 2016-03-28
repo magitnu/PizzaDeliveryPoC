@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<objectIndex>
+    <object>
+        <name>confirmation</name>
+        <type>page</type>
+        <details/>
+    </object>
+    <referenceTree>
+        <item xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="objectReference">
+            <name>confirmation</name>
+            <type>page</type>
+        </item>
+        <details/>
+        <children>
+            <item xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="objectReference">
+                <name>OrderPizza</name>
+                <type>usecase</type>
+            </item>
+            <details>
+                <entry>
+                    <key>labels</key>
+                    <value xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="objectList"/>
+                </entry>
+            </details>
+            <children>
+                <item xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="objectReference">
+                    <name>orderPizza_plusRedWine</name>
+                    <type>scenario</type>
+                </item>
+                <details>
+                    <entry>
+                        <key>labels</key>
+                        <value xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="objectList">
+                            <items xmlns:xs="http://www.w3.org/2001/XMLSchema" xsi:type="xs:string">main flow</items>
+                        </value>
+                    </entry>
+                </details>
+                <children>
+                    <item xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="objectReference">
+                        <name>confirmation/0/0</name>
+                        <type>step</type>
+                    </item>
+                    <details>
+                        <entry>
+                            <key>labels</key>
+                            <value xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="objectList"/>
+                        </entry>
+                    </details>
+                </children>
+            </children>
+        </children>
+    </referenceTree>
+</objectIndex>

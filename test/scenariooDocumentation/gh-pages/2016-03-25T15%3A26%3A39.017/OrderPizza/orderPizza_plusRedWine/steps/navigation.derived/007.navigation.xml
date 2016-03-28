@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<stepNavigation>
+    <pageName>confirmation</pageName>
+    <pageIndex>5</pageIndex>
+    <stepIndex>7</stepIndex>
+    <pageOccurrence>0</pageOccurrence>
+    <stepInPageOccurrence>0</stepInPageOccurrence>
+    <pageVariantIndex>0</pageVariantIndex>
+    <pageVariantScenarioIndex>0</pageVariantScenarioIndex>
+    <pageVariantsCount>1</pageVariantsCount>
+    <pageVariantScenariosCount>1</pageVariantScenariosCount>
+    <previousStep>
+        <pageName>summary</pageName>
+        <pageOccurrence>0</pageOccurrence>
+        <stepInPageOccurrence>0</stepInPageOccurrence>
+    </previousStep>
+    <previousPage>
+        <pageName>summary</pageName>
+        <pageOccurrence>0</pageOccurrence>
+        <stepInPageOccurrence>0</stepInPageOccurrence>
+    </previousPage>
+</stepNavigation>

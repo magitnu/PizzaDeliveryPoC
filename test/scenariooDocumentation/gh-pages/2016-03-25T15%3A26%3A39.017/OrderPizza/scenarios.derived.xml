@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<useCaseScenarios xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:ns3="http://www.scenarioo.org/scenarioo">
+    <useCase>
+        <name>OrderPizza</name>
+        <description>Order a pizza and drinks from &quot;Hot Pizza Delivery&quot;.</description>
+        <status>success</status>
+        <details/>
+        <labels/>
+    </useCase>
+    <scenarios>
+        <scenarioSummary>
+            <numberOfSteps>4</numberOfSteps>
+            <scenario>
+                <name>knownPhoneNumber_butIncorrectPhoneNumber</name>
+                <description>Phone number is already known, but the customer wants to correct the address.</description>
+                <status>success</status>
+                <details/>
+                <labels>
+                    <label>partial flow</label>
+                    <label>enter address</label>
+                </labels>
+            </scenario>
+        </scenarioSummary>
+        <scenarioSummary>
+            <numberOfSteps>8</numberOfSteps>
+            <scenario>
+                <name>orderPizza_plusRedWine</name>
+                <description>Typical order process for a customer with a phone number that is already registered with the correct address.</description>
+                <status>success</status>
+                <details/>
+                <labels>
+                    <label>main flow</label>
+                </labels>
+            </scenario>
+        </scenarioSummary>
+        <scenarioSummary>
+            <numberOfSteps>3</numberOfSteps>
+            <scenario>
+                <name>unknownPhoneNumber_asksToEnterAddress</name>
+                <description>Phone number is not known yet, therefore the customer has to enter the address.</description>
+                <status>success</status>
+                <details/>
+                <labels>
+                    <label>partial flow</label>
+                    <label>enter address</label>
+                </labels>
+            </scenario>
+        </scenarioSummary>
+    </scenarios>
+</useCaseScenarios>

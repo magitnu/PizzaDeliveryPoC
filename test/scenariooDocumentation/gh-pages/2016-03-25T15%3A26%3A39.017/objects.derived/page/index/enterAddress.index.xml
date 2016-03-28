@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<objectIndex>
+    <object>
+        <name>enterAddress</name>
+        <type>page</type>
+        <details/>
+    </object>
+    <referenceTree>
+        <item xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="objectReference">
+            <name>enterAddress</name>
+            <type>page</type>
+        </item>
+        <details/>
+        <children>
+            <item xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="objectReference">
+                <name>OrderPizza</name>
+                <type>usecase</type>
+            </item>
+            <details>
+                <entry>
+                    <key>labels</key>
+                    <value xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="objectList"/>
+                </entry>
+            </details>
+            <children>
+                <item xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="objectReference">
+                    <name>knownPhoneNumber_butIncorrectPhoneNumber</name>
+                    <type>scenario</type>
+                </item>
+                <details>
+                    <entry>
+                        <key>labels</key>
+                        <value xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="objectList">
+                            <items xmlns:xs="http://www.w3.org/2001/XMLSchema" xsi:type="xs:string">partial flow</items>
+                            <items xmlns:xs="http://www.w3.org/2001/XMLSchema" xsi:type="xs:string">enter address</items>
+                        </value>
+                    </entry>
+                </details>
+                <children>
+                    <item xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="objectReference">
+                        <name>enterAddress/0/0</name>
+                        <type>step</type>
+                    </item>
+                    <details>
+                        <entry>
+                            <key>labels</key>
+                            <value xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="objectList"/>
+                        </entry>
+                    </details>
+                </children>
+            </children>
+            <children>
+                <item xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="objectReference">
+                    <name>unknownPhoneNumber_asksToEnterAddress</name>
+                    <type>scenario</type>
+                </item>
+                <details>
+                    <entry>
+                        <key>labels</key>
+                        <value xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="objectList">
+                            <items xmlns:xs="http://www.w3.org/2001/XMLSchema" xsi:type="xs:string">partial flow</items>
+                            <items xmlns:xs="http://www.w3.org/2001/XMLSchema" xsi:type="xs:string">enter address</items>
+                        </value>
+                    </entry>
+                </details>
+                <children>
+                    <item xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="objectReference">
+                        <name>enterAddress/0/0</name>
+                        <type>step</type>
+                    </item>
+                    <details>
+                        <entry>
+                            <key>labels</key>
+                            <value xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="objectList"/>
+                        </entry>
+                    </details>
+                </children>
+            </children>
+        </children>
+    </referenceTree>
+</objectIndex>

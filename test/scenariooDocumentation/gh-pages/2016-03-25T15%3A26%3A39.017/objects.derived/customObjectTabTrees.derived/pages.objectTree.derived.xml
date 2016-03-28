@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<customObjectTabTree>
+    <tree>
+        <item xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="objectReference">
+            <name>enterPhoneNumber</name>
+            <type>page</type>
+        </item>
+        <details/>
+    </tree>
+    <tree>
+        <item xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="objectReference">
+            <name>confirmAddress</name>
+            <type>page</type>
+        </item>
+        <details/>
+    </tree>
+    <tree>
+        <item xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="objectReference">
+            <name>enterAddress</name>
+            <type>page</type>
+        </item>
+        <details/>
+    </tree>
+    <tree>
+        <item xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="objectReference">
+            <name>selectPizza</name>
+            <type>page</type>
+        </item>
+        <details/>
+    </tree>
+    <tree>
+        <item xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="objectReference">
+            <name>selectDrinks</name>
+            <type>page</type>
+        </item>
+        <details/>
+    </tree>
+    <tree>
+        <item xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="objectReference">
+            <name>summary</name>
+            <type>page</type>
+        </item>
+        <details/>
+    </tree>
+    <tree>
+        <item xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="objectReference">
+            <name>confirmation</name>
+            <type>page</type>
+        </item>
+        <details/>
+    </tree>
+</customObjectTabTree>

@@ -1,0 +1,26 @@
+ ============= START OF BUILD IMPORT ================
+  Importing build: gh-pages/2016-03-25T15:26:39.017
+  This might take a while ...
+  calculating aggregated data for build org.scenarioo.rest.base.BuildIdentifier@3176a02[gh-pages,2016-03-25T15:26:39.017] ... 
+    calculating aggregated data for use case : LookUpPhoneNumber
+      calculating aggregated data for scenario : phone_number_present
+      Writing object repository index files for last use case. This might take a while ...
+      Writing object repository index files for last use case finished (success).
+    calculating aggregated data for use case : OrderPizza
+      calculating aggregated data for scenario : knownPhoneNumber_butIncorrectPhoneNumber
+      calculating aggregated data for scenario : orderPizza_plusRedWine
+      calculating aggregated data for scenario : unknownPhoneNumber_asksToEnterAddress
+      Writing object repository index files for last use case. This might take a while ...
+      Writing object repository index files for last use case finished (success).
+    Writing object list for type 'label' ...
+    Finished successfully witing object list for type: label
+    Writing object list for type 'page' ...
+    Finished successfully witing object list for type: page
+    Writing Object-Tree for Custom Object Tab 'pages' ...
+    Finished successfully writing Object-Tree for Custom Object Tab 'pages'.
+    Writing Object-Tree for Custom Object Tab 'labels' ...
+    Finished successfully writing Object-Tree for Custom Object Tab 'labels'.
+Config value createLastSuccessfulScenarioBuild = false
+Build folder /home/scenarioo/scenarioo/pizza-delivery/test/scenariooDocumentation/gh-pages/last+successful+scenarios.derived does not exist, therefore it can't be deleted.
+  SUCCESS on importing build: gh-pages/2016-03-25T15:26:39.017
+ ============= END OF BUILD IMPORT (success) ===========

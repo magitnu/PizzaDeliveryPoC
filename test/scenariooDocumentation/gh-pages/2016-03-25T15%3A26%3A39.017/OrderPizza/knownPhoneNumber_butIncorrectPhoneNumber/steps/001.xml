@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<step xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:ns3="http://www.scenarioo.org/scenarioo">
+    <page>
+        <name>confirmAddress</name>
+        <details/>
+        <labels/>
+    </page>
+    <stepDescription>
+        <index>1</index>
+        <title></title>
+        <status>success</status>
+        <screenshotFileName>001.png</screenshotFileName>
+        <labels/>
+        <details/>
+    </stepDescription>
+    <html>
+        <htmlSource>&lt;!DOCTYPE html&gt;
+&lt;html xmlns="http://www.w3.org/1999/xhtml" lang="en"&gt;&lt;head&gt;
+    &lt;meta charset="utf-8" /&gt;
+    &lt;meta content="IE=edge" http-equiv="X-UA-Compatible" /&gt;
+    &lt;meta content="width=device-width, initial-scale=1" name="viewport" /&gt;
+    &lt;!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags --&gt;
+    &lt;title&gt;Hot Pizza Delivery&lt;/title&gt;
+
+    &lt;!-- Bootstrap --&gt;
+    &lt;link rel="stylesheet" href="lib/bootstrap-3.3.5-dist/css/bootstrap.min.css" /&gt;
+    &lt;link rel="stylesheet" href="lib/bootstrap-3.3.5-dist/css/bootstrap-theme.min.css" /&gt;
+
+    &lt;!-- Custom CSS --&gt;
+    &lt;link rel="stylesheet" href="src/pizza.css" /&gt;
+&lt;/head&gt;
+&lt;body&gt;
+
+&lt;div class="container"&gt;
+
+    &lt;div class="page-header"&gt;
+        &lt;h1&gt;Hot Pizza Delivery
+            &lt;small&gt;Best pizza in town!  &lt;span id="hot-pizza-delivery-phone-number"&gt;+41 11 222 33 44&lt;/span&gt;&lt;/small&gt;
+        &lt;/h1&gt;
+    &lt;/div&gt;
+
+    &lt;div class="panel panel-default"&gt;
+        &lt;div class="panel-body"&gt;
+
+            &lt;div id="step-enterPhoneNumber" style="display: none;"&gt;
+                &lt;h3&gt;Please enter your phone number&lt;/h3&gt;
+
+                &lt;p&gt;
+                    &lt;strong&gt;Phone number:&lt;/strong&gt; &lt;input type="text" size="20" maxlength="15" id="phoneNumber" /&gt;
+                &lt;/p&gt;
+
+                &lt;button class="next"&gt;Next&lt;/button&gt;
+            &lt;/div&gt;
+
+            &lt;div style="" id="step-confirmAddress"&gt;
+                &lt;h3&gt;Confirm your address&lt;/h3&gt;
+
+                &lt;p&gt;Is the following address still correct?&lt;/p&gt;
+
+                &lt;p&gt;&lt;strong&gt;Street and house number&lt;/strong&gt;: Heimlieferstrasse 123&lt;/p&gt;
+                &lt;p&gt;&lt;strong&gt;Zip code and City&lt;/strong&gt;: 8001 Zürich&lt;/p&gt;
+
+                &lt;button class="yes"&gt;Yes&lt;/button&gt; &lt;button class="no"&gt;No&lt;/button&gt;
+            &lt;/div&gt;
+
+            &lt;div style="display: none;" id="step-enterAddress"&gt;
+                &lt;h3&gt;Enter your address&lt;/h3&gt;
+
+                &lt;p&gt;Seems we don't know your correct address yet. Please enter it below:&lt;/p&gt;
+
+                &lt;p&gt;&lt;strong&gt;Street and house number&lt;/strong&gt;: &lt;input type="text" size="30" maxlength="40" id="streetAndHouseNumber" /&gt;&lt;/p&gt;
+                &lt;p&gt;&lt;strong&gt;Zip code and City&lt;/strong&gt;: &lt;input type="text" size="30" maxlength="40" id="zipCodeAndCity" /&gt;&lt;/p&gt;
+
+                &lt;button class="next"&gt;Next&lt;/button&gt;
+            &lt;/div&gt;
+
+            &lt;div style="display: none;" id="step-selectPizza"&gt;
+                &lt;h3&gt;Select your pizza&lt;/h3&gt;
+
+                &lt;p&gt;
+                    &lt;input type="radio" id="m" value="Pizza Margherita" name="pizza" /&gt; &lt;label for="m"&gt;Pizza
+                    Margherita&lt;/label&gt;
+                &lt;/p&gt;
+
+                &lt;p&gt;
+                    &lt;input type="radio" id="v" value="Pizza Verdura" name="pizza" /&gt; &lt;label for="v"&gt;Pizza
+                    Verdura&lt;/label&gt;
+                &lt;/p&gt;
+
+                &lt;p&gt;
+                    &lt;input type="radio" id="p" value="Pizza Piccante" name="pizza" /&gt; &lt;label for="p"&gt;Pizza
+                    Piccante&lt;/label&gt;
+                &lt;/p&gt;
+
+                &lt;p&gt;
+                    &lt;input type="radio" id="pizzaFuture" value="Pizza Al Capone" name="pizza" /&gt; &lt;label for="a"&gt;Pizza Al
+                    Capone&lt;/label&gt;
+                &lt;/p&gt;
+                
+                &lt;p&gt;
+                    &lt;input type="radio" id="a" value="Pizza Back To The Future" name="pizza" /&gt; &lt;label for="a"&gt;Pizza Back To The Future (dehydrated)&lt;/label&gt;
+                &lt;/p&gt;
+                &lt;button class="next"&gt;Looks fine&lt;/button&gt;
+            &lt;/div&gt;
+            &lt;div style="display: none;" id="step-selectDrinks"&gt;
+                &lt;h3&gt;Select your drinks&lt;/h3&gt;
+
+                &lt;p&gt;
+                    &lt;input type="checkbox" id="da" value="Aqua Minerale" name="drink_a" /&gt; &lt;label for="da"&gt;Aqua
+                    Minerale&lt;/label&gt;
+                &lt;/p&gt;
+
+                &lt;p&gt;
+                    &lt;input type="checkbox" id="dv" value="Vino Rosso" name="drink_v" /&gt; &lt;label for="dv"&gt;Vino
+                    Rosso&lt;/label&gt;
+                &lt;/p&gt;
+
+                &lt;p&gt;
+                    &lt;input type="checkbox" id="db" value="Lager Beer" name="drink_b" /&gt; &lt;label for="db"&gt;Lager
+                    Beer&lt;/label&gt;
+                &lt;/p&gt;
+
+                &lt;p&gt;
+                    &lt;input type="checkbox" id="dg" value="Grappa" name="drink_g" /&gt; &lt;label for="dg"&gt;Grappa&lt;/label&gt;
+                &lt;/p&gt;
+                &lt;button class="next"&gt;Alright&lt;/button&gt;
+            &lt;/div&gt;
+            &lt;div style="display: none;" id="step-summary"&gt;
+                &lt;h3&gt;Summary of your order&lt;/h3&gt;
+
+                &lt;p&gt;Pizza: &lt;span id="summary_pizza"&gt;&lt;/span&gt;&lt;/p&gt;
+
+                &lt;p&gt;Drinks: &lt;span id="summary_drinks"&gt;&lt;/span&gt;&lt;/p&gt;
+
+                &lt;button class="next"&gt;Order&lt;/button&gt;
+            &lt;/div&gt;
+            &lt;div style="display: none;" id="step-confirmation"&gt;
+                &lt;h3&gt;Thanks for your order!&lt;/h3&gt;
+
+                &lt;p&gt;A &lt;span id="confirmation_pizza"&gt;&lt;/span&gt; (plus drinks: &lt;span id="confirmation_drinks"&gt;&lt;/span&gt;) will
+                    soon be on the way to you!&lt;/p&gt;
+            &lt;/div&gt;
+
+        &lt;/div&gt;
+    &lt;/div&gt;
+
+    &lt;div id="currentStep" style="display:none"&gt;step-confirmAddress&lt;/div&gt;
+
+&lt;/div&gt;
+
+&lt;!-- jQuery (necessary for Bootstrap's JavaScript plugins) --&gt;
+&lt;script src="lib/jquery/jquery-1.11.3.min.js"&gt;&lt;/script&gt;
+&lt;!-- Include all compiled plugins (below), or include individual files as needed --&gt;
+&lt;script src="lib/bootstrap-3.3.5-dist/js/bootstrap.min.js"&gt;&lt;/script&gt;
+&lt;!-- Appliation code --&gt;
+&lt;script src="src/pizza.js"&gt;&lt;/script&gt;
+
+
+
+&lt;/body&gt;&lt;canvas id="fxdriver-screenshot-canvas" style="display: none;" width="1217" height="670"&gt;&lt;/canvas&gt;&lt;/html&gt;</htmlSource>
+    </html>
+    <metadata>
+        <details/>
+    </metadata>
+    <screenAnnotations>
+        <screenAnnotation>
+            <region>
+                <x>101</x>
+                <y>283</y>
+                <width>36</width>
+                <height>26</height>
+            </region>
+            <style>CLICK</style>
+            <screenText></screenText>
+            <title></title>
+            <description></description>
+            <details/>
+            <clickAction>TO_NEXT_STEP</clickAction>
+        </screenAnnotation>
+    </screenAnnotations>
+</step>

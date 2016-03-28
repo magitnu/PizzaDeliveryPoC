@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<useCaseScenarios xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:ns3="http://www.scenarioo.org/scenarioo">
+    <useCase>
+        <name>LookUpPhoneNumber</name>
+        <description>Look up phone number of &quot;Hot Pizza Delivery&quot;.</description>
+        <status>success</status>
+        <details/>
+        <labels/>
+    </useCase>
+    <scenarios>
+        <scenarioSummary>
+            <numberOfSteps>1</numberOfSteps>
+            <scenario>
+                <name>phone_number_present</name>
+                <description>Find phone number on start page</description>
+                <status>success</status>
+                <details/>
+                <labels>
+                    <label>main flow</label>
+                </labels>
+            </scenario>
+        </scenarioSummary>
+    </scenarios>
+</useCaseScenarios>

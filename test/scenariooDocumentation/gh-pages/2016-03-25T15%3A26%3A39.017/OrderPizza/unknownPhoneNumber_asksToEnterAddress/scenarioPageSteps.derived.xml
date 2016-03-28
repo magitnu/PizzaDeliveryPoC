@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<scenarioPageSteps xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:ns3="http://www.scenarioo.org/scenarioo">
+    <scenario>
+        <name>unknownPhoneNumber_asksToEnterAddress</name>
+        <description>Phone number is not known yet, therefore the customer has to enter the address.</description>
+        <status>success</status>
+        <details/>
+        <labels>
+            <label>partial flow</label>
+            <label>enter address</label>
+        </labels>
+    </scenario>
+    <useCase>
+        <name>OrderPizza</name>
+        <description>Order a pizza and drinks from &quot;Hot Pizza Delivery&quot;.</description>
+        <status>success</status>
+        <details/>
+        <labels/>
+    </useCase>
+    <pagesAndSteps>
+        <pageSteps>
+            <page>
+                <name>enterPhoneNumber</name>
+                <details/>
+                <labels/>
+            </page>
+            <steps>
+                <step>
+                    <index>0</index>
+                    <title></title>
+                    <status>success</status>
+                    <screenshotFileName>000.png</screenshotFileName>
+                    <labels/>
+                    <details/>
+                </step>
+            </steps>
+        </pageSteps>
+        <pageSteps>
+            <page>
+                <name>enterAddress</name>
+                <details/>
+                <labels/>
+            </page>
+            <steps>
+                <step>
+                    <index>1</index>
+                    <title></title>
+                    <status>success</status>
+                    <screenshotFileName>001.png</screenshotFileName>
+                    <labels/>
+                    <details/>
+                </step>
+            </steps>
+        </pageSteps>
+        <pageSteps>
+            <page>
+                <name>selectPizza</name>
+                <details/>
+                <labels/>
+            </page>
+            <steps>
+                <step>
+                    <index>2</index>
+                    <title></title>
+                    <status>success</status>
+                    <screenshotFileName>002.png</screenshotFileName>
+                    <labels/>
+                    <details/>
+                </step>
+            </steps>
+        </pageSteps>
+    </pagesAndSteps>
+</scenarioPageSteps>

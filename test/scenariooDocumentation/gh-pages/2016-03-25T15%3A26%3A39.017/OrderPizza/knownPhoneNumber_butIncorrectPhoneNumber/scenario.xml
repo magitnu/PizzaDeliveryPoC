@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<scenario xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:ns3="http://www.scenarioo.org/scenarioo">
+    <name>knownPhoneNumber_butIncorrectPhoneNumber</name>
+    <description>Phone number is already known, but the customer wants to correct the address.</description>
+    <status>success</status>
+    <details/>
+    <labels>
+        <label>partial flow</label>
+        <label>enter address</label>
+    </labels>
+</scenario>

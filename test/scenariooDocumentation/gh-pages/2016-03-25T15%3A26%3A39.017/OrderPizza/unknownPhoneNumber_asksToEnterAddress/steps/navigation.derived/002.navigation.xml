@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<stepNavigation>
+    <pageName>selectPizza</pageName>
+    <pageIndex>2</pageIndex>
+    <stepIndex>2</stepIndex>
+    <pageOccurrence>0</pageOccurrence>
+    <stepInPageOccurrence>0</stepInPageOccurrence>
+    <pageVariantIndex>3</pageVariantIndex>
+    <pageVariantScenarioIndex>2</pageVariantScenarioIndex>
+    <previousStepVariant>
+        <useCaseName>OrderPizza</useCaseName>
+        <scenarioName>orderPizza_plusRedWine</scenarioName>
+        <pageName>selectPizza</pageName>
+        <pageOccurrence>0</pageOccurrence>
+        <stepInPageOccurrence>1</stepInPageOccurrence>
+        <pageIndex>2</pageIndex>
+        <stepIndex>3</stepIndex>
+    </previousStepVariant>
+    <previousStepVariantInOtherScenario>
+        <useCaseName>OrderPizza</useCaseName>
+        <scenarioName>orderPizza_plusRedWine</scenarioName>
+        <pageName>selectPizza</pageName>
+        <pageOccurrence>0</pageOccurrence>
+        <stepInPageOccurrence>1</stepInPageOccurrence>
+        <pageIndex>2</pageIndex>
+        <stepIndex>3</stepIndex>
+    </previousStepVariantInOtherScenario>
+    <pageVariantsCount>4</pageVariantsCount>
+    <pageVariantScenariosCount>3</pageVariantScenariosCount>
+    <previousStep>
+        <pageName>enterAddress</pageName>
+        <pageOccurrence>0</pageOccurrence>
+        <stepInPageOccurrence>0</stepInPageOccurrence>
+    </previousStep>
+    <previousPage>
+        <pageName>enterAddress</pageName>
+        <pageOccurrence>0</pageOccurrence>
+        <stepInPageOccurrence>0</stepInPageOccurrence>
+    </previousPage>
+</stepNavigation>

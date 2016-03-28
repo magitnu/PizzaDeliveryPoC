@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<objectList>
+    <items xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="objectDescription">
+        <name>enter address</name>
+        <type>label</type>
+        <details/>
+    </items>
+    <items xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="objectDescription">
+        <name>main flow</name>
+        <type>label</type>
+        <details/>
+    </items>
+    <items xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="objectDescription">
+        <name>partial flow</name>
+        <type>label</type>
+        <details/>
+    </items>
+</objectList>

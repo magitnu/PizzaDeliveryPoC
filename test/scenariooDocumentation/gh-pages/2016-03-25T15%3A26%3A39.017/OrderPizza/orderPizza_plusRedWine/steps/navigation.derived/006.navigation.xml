@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<stepNavigation>
+    <pageName>summary</pageName>
+    <pageIndex>4</pageIndex>
+    <stepIndex>6</stepIndex>
+    <pageOccurrence>0</pageOccurrence>
+    <stepInPageOccurrence>0</stepInPageOccurrence>
+    <pageVariantIndex>0</pageVariantIndex>
+    <pageVariantScenarioIndex>0</pageVariantScenarioIndex>
+    <pageVariantsCount>1</pageVariantsCount>
+    <pageVariantScenariosCount>1</pageVariantScenariosCount>
+    <previousStep>
+        <pageName>selectDrinks</pageName>
+        <pageOccurrence>0</pageOccurrence>
+        <stepInPageOccurrence>1</stepInPageOccurrence>
+    </previousStep>
+    <nextStep>
+        <pageName>confirmation</pageName>
+        <pageOccurrence>0</pageOccurrence>
+        <stepInPageOccurrence>0</stepInPageOccurrence>
+    </nextStep>
+    <previousPage>
+        <pageName>selectDrinks</pageName>
+        <pageOccurrence>0</pageOccurrence>
+        <stepInPageOccurrence>1</stepInPageOccurrence>
+    </previousPage>
+    <nextPage>
+        <pageName>confirmation</pageName>
+        <pageOccurrence>0</pageOccurrence>
+        <stepInPageOccurrence>0</stepInPageOccurrence>
+    </nextPage>
+</stepNavigation>

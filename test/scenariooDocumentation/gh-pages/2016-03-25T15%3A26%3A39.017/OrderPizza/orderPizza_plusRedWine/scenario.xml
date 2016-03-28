@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<scenario xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:ns3="http://www.scenarioo.org/scenarioo">
+    <name>orderPizza_plusRedWine</name>
+    <description>Typical order process for a customer with a phone number that is already registered with the correct address.</description>
+    <status>success</status>
+    <details/>
+    <labels>
+        <label>main flow</label>
+    </labels>
+</scenario>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<objectList>
+    <items xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="objectDescription">
+        <name>confirmAddress</name>
+        <type>page</type>
+        <details/>
+    </items>
+    <items xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="objectDescription">
+        <name>confirmation</name>
+        <type>page</type>
+        <details/>
+    </items>
+    <items xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="objectDescription">
+        <name>enterAddress</name>
+        <type>page</type>
+        <details/>
+    </items>
+    <items xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="objectDescription">
+        <name>enterPhoneNumber</name>
+        <type>page</type>
+        <details/>
+    </items>
+    <items xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="objectDescription">
+        <name>selectDrinks</name>
+        <type>page</type>
+        <details/>
+    </items>
+    <items xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="objectDescription">
+        <name>selectPizza</name>
+        <type>page</type>
+        <details/>
+    </items>
+    <items xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="objectDescription">
+        <name>summary</name>
+        <type>page</type>
+        <details/>
+    </items>
+</objectList>

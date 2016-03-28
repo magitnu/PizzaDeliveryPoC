@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<customObjectTabTree>
+    <tree>
+        <item xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="objectReference">
+            <name>main flow</name>
+            <type>label</type>
+        </item>
+        <details/>
+    </tree>
+    <tree>
+        <item xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="objectReference">
+            <name>partial flow</name>
+            <type>label</type>
+        </item>
+        <details/>
+    </tree>
+    <tree>
+        <item xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="objectReference">
+            <name>enter address</name>
+            <type>label</type>
+        </item>
+        <details/>
+    </tree>
+</customObjectTabTree>
